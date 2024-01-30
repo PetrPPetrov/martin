@@ -1,0 +1,24 @@
+// Exception.cpp: implementation of the CException class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "PeterCompiler.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+__PETER_COMPILER_BEGIN
+
+CException::CException(std::string _file,long _line):
+m_sFile_name(_file),m_lLine(_line)
+{
+
+}
+
+CException::~CException()
+{
+
+}
+
+__PETER_COMPILER_END

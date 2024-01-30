@@ -49,6 +49,8 @@ ${PROJECT_SOURCE_DIR}/source
 add_executable(martin
 ${PROJECT_SOURCE_DIR}/src/martin.cpp
 ${PROJECT_SOURCE_DIR}/src/unterminal.h
+${PROJECT_SOURCE_DIR}/src/scanner.h
+${PROJECT_SOURCE_DIR}/src/scanner.cpp
 )
 
 set_target_properties(martin PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY ${RUN_AREA_DIR})

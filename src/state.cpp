@@ -1,0 +1,30 @@
+// State.cpp: implementation of the CState class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "PeterCompiler.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+__PETER_COMPILER_BEGIN
+
+CState::CState():
+m_iState(0),m_bOk(false),m_bEnd(false)
+{
+
+}
+
+CState::CState(int _state):
+m_iState(_state),m_bOk(false),m_bEnd(false)
+{
+
+}
+
+CState::~CState()
+{
+
+}
+
+__PETER_COMPILER_END
